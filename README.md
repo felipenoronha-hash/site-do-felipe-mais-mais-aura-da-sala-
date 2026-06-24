@@ -56,3 +56,15 @@ console.log("fui clicado");
 </script>
 
 </html>
+CTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site 1C</title>
+</head>
+<body>
+    <h1>site 1C</h1>
+    <p>professor chatao</p>
+</body>
+</html>
