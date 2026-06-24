@@ -1,1 +1,58 @@
-# site-do-felipe-mais-mais-aura-da-sala-
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site 1C</title>
+    <style>
+        header {
+            background-color: darkred;
+            color: azure;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+            border: 5px solid #7510af;
+            padding: 16px;
+        }
+        main {
+           background-color: azure;
+            color: darkred;
+            text-align: center;
+            margin: 0 auto;
+   
+        }
+        img {
+            width: 80px;
+            height: 80px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <p>Esse site foi feito na disciplina de educação digital</p>
+    </header>
+    <main>
+        <img src="meu site mais legal" alt="icone de computador">
+       
+        <div>
+            <h2>Meu primeiro post</h2>
+            <p>editado por Mateus</p>
+            <p>Boas-vindas ao meu blog! Aqui vou compartilhar sobre tecnologia e computação</p>
+            <button>❤️ <span>0</span></button>
+        </div>
+           
+    </main>
+</body>
+
+<script>
+    const botao = document.querySelector("button");
+    botao.addEventListenr("click",botaoClicado);
+
+    function botaoClicado () {
+console.log("fui clicado");
+
+    }
+</script>
+
+</html>
